@@ -1,0 +1,6 @@
+project: str
+target: fuzz-str
+
+cmds:
+    - cmd: ./fuzz-str
+      libfuzzer: true
